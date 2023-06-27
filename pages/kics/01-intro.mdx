@@ -3,17 +3,18 @@ title: "I. 총 칙"
 excerpt: "기준의 목적 및 용어의 정의 그리고 일반원칙을 설명한다."
 ---
 import { Callout,  Collapse, Steps } from 'nextra-theme-docs'
-import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, GSheet}  from '../../components/prime'
+import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, GSheet, CenterImg, SubText, SCard, Math}  from '../../components/prime'
 
 # I. 총 칙
+
 ## 1. 목적
 이 기준은 「보험업감독규정」 제7-1조, 제7-2조 및 제7-2조의2의 규정에 의한 지급여력금액, 지급여력기준금액 및 건전성감독기준 재무상태표에 대한 세부사항을 정함을 목적으로 한다.
 
 ## 2. 용어의 정의
-- 가. terminology-I.총칙 참조.
-- 나. terminology-II.자산 및 부채평가 참조.
-- 다. terminology-III.지급여력금액 산출 참조.
-- 라. terminology-IV.지급여력기준금액 산출 참조.
+- 가. [terminology-I.총칙](/kics/term-1/) 참조.
+- 나. [terminology-II.자산 및 부채평가](/kics/term-2/) 참조.
+- 다. [terminology-III.지급여력금액 산출](/kics/term-3/) 참조.
+- 라. [terminology-IV.지급여력기준금액 산출](/kics/term-4/) 참조.
 
 ## 3. 지급여력비율 산출 원칙
 
@@ -26,7 +27,7 @@ import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, Overlay
 
   ’08년 글로벌 금융위기시 자회사 손실로 인해 파산한 대형 보험그룹인 AIG 사례를 계기로 국제적으로 그룹감독에 대한 관심이 증가하였음.
 
-    - 1) AIG그룹의 자회사였던 AIGFP(투자은행)가 CDS(4,410억 달러) 등 고위험 자산에 투자하여 그룹 전체에 막대한 손실
+    - AIG그룹의 자회사였던 AIGFP(투자은행)가 CDS(4,410억 달러) 등 고위험 자산에 투자하여 그룹 전체에 막대한 손실
 
   이에 따라 IAIS는 ’11.9월 공표한 보험핵심원칙(ICP)에서 보험회사의 자본적정성을 그룹 기준으로 평가하도록 기준을 마련하였으며, IMF 및 World Bank의 「금융부문평가프로그램 (FSAP)」에서도 그룹기준 지급여력제도를 중요 평가항목으로 선정하고 있음.
 
@@ -59,6 +60,7 @@ import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, Overlay
   </AccordionTab>
 </Accordion>
 
+
 ### 가. 연결재무상태표 기준 [#4가]
 **그룹기준의 지급여력비율은 한국채택국제회계기준(이하 ‘K-IFRS’)에 의한 연결재무상태표를 기준으로 산출함을 원칙으로 한다.**
 
@@ -66,16 +68,13 @@ import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, Overlay
 **그룹범위에 해당하는 종속회사는 \<표1>에 따라 계정별 합산 또는 투자지분 계상을 적용 하며 세부 작성기준은 다음과 같다.**
 
 <iframe
-  width="370"
-  height="350"
+  width="330"
+  height="340"
   frameborder="0"
   scrolling="no"
-  src="https://onedrive.live.com/embed?resid=AB5F66CE0CF8D024%2116462&authkey=%21AClzDxwv6aRFtvg&em=2&wdAllowInteractivity=False&Item=table1&wdHideGridlines=True&wdDownloadButton=False&wdInConfigurator=False&wdInConfigurator=False&edesNext=false&resen=false&ed1JS=false"
-  style={{
-  }}
-></iframe>
-
-
+  title=""
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0XRomFHnFmSo7g5AGXULeCeBGUf4mrVYenxp2H2P7I7IMCOJ8lI8uX8m4fx90J6jPhlnD58ATQPYa/pubhtml?gid=1278201825&amp;range=table1&amp;single=true&amp;widget=true&amp;headers=false">
+</iframe>
 
 - (1) 종속회사에 대한 연결대상회사 및 연결범위는 K-IFRS에서 정하는 바에 의한다. 다만, 비금융 회사는 K-IFRS 기준과 달리 연결대상회사에서 제외한다.
 
@@ -115,15 +114,6 @@ $^{1)}$  : (금융회사(보험회사 포함) 및 보험업 관련회사를 제�
 
 ### 라. 관계회사의 투자지분 계상 [#4라]
 **그룹범위에 해당되는 관계회사는 \<표1> 에 따라 투자지분 계상을 적용하며 세부 작성기준은 다음과 같다.**
-
-<iframe
-  width="330"
-  height="340"
-  frameborder="0"
-  scrolling="no"
-  title=""
-  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0XRomFHnFmSo7g5AGXULeCeBGUf4mrVYenxp2H2P7I7IMCOJ8lI8uX8m4fx90J6jPhlnD58ATQPYa/pubhtml?gid=1278201825&amp;range=table1&amp;single=true&amp;widget=true&amp;headers=false">
-</iframe>
 
 - (1) ‘관계회사의 투자주식’ 계정에 관계회사 투자주식 가액을 계상한다.
 - (2) 투자주식 가액은 시장가격으로 평가한다.
